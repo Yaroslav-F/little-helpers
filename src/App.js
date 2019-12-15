@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,13 +37,13 @@ function App() {
               <h4 className='font-italic'>Questions?</h4>
               <ol className='list-unstyled'>
                 <li>
-                  <a href='mailto:yaro.filyk@gmail.com' target='_blank'>Email</a>
+                  <a href='mailto:yaro.filyk@gmail.com' target='_blank' rel='noopener noreferrer'>Email</a>
                 </li>
                 <li>
-                  <a href='https://github.com/Yaroslav-F' target='_blank'>GitHub</a>
+                  <a href='https://github.com/Yaroslav-F' target='_blank' rel='noopener noreferrer'>GitHub</a>
                 </li>
                 <li>
-                  <a href='https://www.linkedin.com/in/yaroslavfilyk/' target='_blank'>LinkedIn</a>
+                  <a href='https://www.linkedin.com/in/yaroslavfilyk/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
                 </li>
               </ol>
             </div>

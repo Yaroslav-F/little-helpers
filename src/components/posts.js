@@ -17,7 +17,7 @@ class Posts extends React.Component{
   }
 
   render() {
-    if(this.state.posts.length == 0){
+    if(this.state.posts.length === 0){
       return(
         <div className='text-center'>
           <div className='spinner-border mt-5' role='status'>
