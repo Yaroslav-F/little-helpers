@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Little Helpers",
+  "name": "Collection of notes and scribbles on software architecture and development.",
   "icons": [
     {
       "src": "favicon.ico",

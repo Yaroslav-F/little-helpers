@@ -14,7 +14,7 @@ function App() {
       <Header />
       <main role='main' className='container'>
         <div className='row'>
-          <div className='col-8 blog-main'>
+          <div className='col-12 col-sm-8 blog-main'>
             <Switch>
               <Route exact path='/' component={Posts} />
               <Route path='/:slug' component={Post} />
