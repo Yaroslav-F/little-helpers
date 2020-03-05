@@ -14,6 +14,7 @@ class Post extends React.Component {
         date: response.data.date,
         body: response.data.body
       })
+      window.PR.prettyPrint()
     })
   }
 
